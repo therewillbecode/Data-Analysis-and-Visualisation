@@ -4,9 +4,14 @@ import index as main
 
 class TestUnique(unittest.TestCase):
 
+    # check that functions limit arg types
     def test_CheckRaiseTypeError(self):
         with self.assertRaises(TypeError):
-            main.GetUniqueIndexVals(7, "country")
+            main.getUniqueIndexVals(7, 'country')
 
-    def test_one_plus_one(self):
-        assert not 1 + 1 == 3
+    def test_FilterRaisesTypeError(self):
+        with self.assertRaises(TypeError):
+            main.filterByType(7, 'str')
+
+
+
