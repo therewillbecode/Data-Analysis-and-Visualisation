@@ -7,7 +7,7 @@ class TestUnique(unittest.TestCase):
     # check that functions limit arg types
     def test_CheckRaiseTypeError(self):
         with self.assertRaises(TypeError):
-            main.getUniqueIndexVals(7, 'country')
+            main.getUniqueLabelVals(7, 'country')
 
     def test_FilterRaisesTypeError(self):
         with self.assertRaises(TypeError):
