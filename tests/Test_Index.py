@@ -9,9 +9,9 @@ class TestUnique(unittest.TestCase):
         with self.assertRaises(TypeError):
             main.getUniqueLabelVals(7, 'country')
 
-    def test_FilterRaisesTypeError(self):
-        with self.assertRaises(TypeError):
-            main.filterByType(7, 'str')
+    # check that element count for each label in parsed data frame > 1
+    def test_readcsv(self):
+        self.assertEqual(all(elements > 1 for elements in main.readCsv('raw_data.csv', encoding="ISO-8859-1").count()), True)
 
 
 

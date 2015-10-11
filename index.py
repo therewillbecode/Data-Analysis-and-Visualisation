@@ -9,14 +9,8 @@ def getUniqueLabelVals(DataFrame, label):
     if isinstance(label, str) == False:
         raise TypeError('arg2 must be String')
 
-    return DataFrame[label].unique()
-
-def filterByType(obj, type):
-    if hasattr(obj, '__iter__') == False:
-        raise TypeError('arg1 must be an iterable object')
-    if isinstance(type, str) == False:
-        raise TypeError('arg2 must be String')
-
+    df=DataFrame[label].unique()
+    # drop na elements
 
 # reads csv and excludes records with > threshold of NaN
 def readCsv(csvfile, encoding, index_col=0, threshold=2, parse_dates=True):
@@ -31,4 +25,6 @@ print(RawFrame.__class__.__name__)
 print(getUniqueLabelVals(RawFrame, "country"))
 
 
+g=readCsv('raw_data.csv', encoding="ISO-8859-1").count()
 
+[print(x) for x in g]
