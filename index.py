@@ -2,7 +2,6 @@ __author__ = 'Tom'
 import numpy as np
 import pandas as pd
 
-
 # reads csv and excludes records that contain NaN
 def readcsv(csvfile, encoding, index_col=0, parse_dates='created_at'):
     df = pd.read_csv(csvfile, index_col=index_col, encoding=encoding, parse_dates=parse_dates)
@@ -63,34 +62,28 @@ df.amountNeeded = pd.Series([AllCat_Nepal.amount_needed.sum(),
 # convert frequency using nanosecond conversion from 1 min to 3 H
 df.created_at = pd.to_datetime(pd.Series(df.created_at))
 ns180min=180*60*1000000000   # 180 minutes in nanoseconds
-df.threehour = pd.DatetimeIndex(((df.created_at.astype(np.int64) // ns180min + 1) * ns180min))
-
-# Split categories into each data frame
-NepalDf = df[df.country == 'Nepal']
-IndonesiaDf = df[df.country == 'Indonesia']
-PhilippinesDf = df[df.country == 'Philippines']
-EntCatDf = df[df.category_id == entrepreneurship]
-ConstCatDf = df[df.category_id == construction]
-
+df['threehour'] = pd.DatetimeIndex(((df.created_at.astype(np.int64) // ns180min + 1) * ns180min))
 
 # create series of our DFs
-h3TsDataFrames = pd.Series([df[df.country == 'Nepal'], df[df.country == 'Indonesia'],
+SplitDataFrames = pd.Series([df[df.country == 'Nepal'], df[df.country == 'Indonesia'],
                   df[df.country == 'Philippines'],
                   df[df.category_id == entrepreneurship],
                   df[df.category_id == construction]],
                   index=['Nepal_All', 'Indonesia_All', 'Philippines_All',
                          'All_Entrepreneurship', 'All_Construction'])
 
-print(h3TsDataFrames.index)
-#ts3h_NepalDF = (NepalDf.groupby(df.threehour).sum())
-# then group each dataframeby df.threehour.sum()
-
-
-
-
+# then group each df in series by threehour time frequency
+h3tsDataFrames = []
+[h3tsDataFrames.append(index.groupby(index.threehour).sum()) for index in SplitDataFrames]
 
 # add cumulative sum column to number each time series data point
+[h3tsDataFrames.append(index.groupby(index.threehour).sum()) for index in SplitDataFrames]
 
+
+#h3TsDataFrames = [print(index.groupby(index.threehour).sum()) for index in h3TsDataFrames]
+
+#print(h3TsDataFrames)
+print(h3tsDataFrames)
 
 
 
