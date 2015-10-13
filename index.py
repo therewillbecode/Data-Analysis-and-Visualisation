@@ -1,6 +1,15 @@
 __author__ = 'Tom'
 import numpy as np
 import pandas as pd
+def hoursToNanoseconds(h):
+    return h*60*60*1000000000   # converts hours to nanoseconds
+
+
+# takes a dataframe and gives it a new column with time series with intervals converted in no of hours
+def convertSeriestimeinterval(dataframe, series, hours):     # series should be a string
+    interval = hoursToNanoseconds(hours)
+    dataframe['hour'] = pd.DatetimeIndex(((dataframe[series].astype(np.int64) // interval + 1) * interval))
+
 
 # reads csv and excludes records that contain NaN
 def readcsv(csvfile, encoding, index_col=0, parse_dates='created_at'):
@@ -61,19 +70,8 @@ df.amountNeeded = pd.Series([AllCat_Nepal.amount_needed.sum(),
 
 # convert frequency using nanosecond conversion from 1 min to 3 H
 df.created_at = pd.to_datetime(pd.Series(df.created_at))
-ns180min=180*60*1000000000   # 180 minutes in nanoseconds
-df['threehour'] = pd.DatetimeIndex(((df.created_at.astype(np.int64) // ns180min + 1) * ns180min))
-df.created_at = pd.to_datetime(pd.Series(df.created_at))
 
-def hoursToNanoseconds(h):
-    return h*60*60*1000000000   # converts hours to nanoseconds
-
-
-# takes a dataframe and gives it a new column with time series with intervals converted in no of hours
-def convertSeriestimeinterval(dataframe, series, hours):     # series should be a string
-    interval = hoursToNanoseconds(hours)
-    dataframe['hour'] = pd.DatetimeIndex(((dataframe[series].astype(np.int64) // interval + 1) * interval))
-
+# third argument sets interval span in hours for time series conversion
 convertSeriestimeinterval(df, 'created_at', 3)
 
 # create series of our DFs
