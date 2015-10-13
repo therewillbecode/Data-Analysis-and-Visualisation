@@ -111,3 +111,12 @@ print(h3tsDataFrames)
 # t[t.title == 'Macbeth'].sort('year')    sort all films called macbeth by
 # df.sort(['column1', 'column2'])
 # df.groupby(df.created_at).sum())      aggregates data according to time
+
+
+#TO DO
+#
+# implement function that computs success rate
+# success rate column should compute from the completed column as follows = count(false) / count (true)
+# call success rate function for each dataframe
+
+#Data validation functions and testing
