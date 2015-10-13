@@ -58,13 +58,11 @@ df.amountNeeded = pd.Series([AllCat_Nepal.amount_needed.sum(),
                                  OtherCatNeeded],
                                  index=['Nepal_All', 'Indonesia_All', 'Philippines_All', 'Total', 'All_Entrepreneurship',
                                         'All_Construction', 'All_OtherCategories'])
-<<<<<<< HEAD
 
 # convert frequency using nanosecond conversion from 1 min to 3 H
 df.created_at = pd.to_datetime(pd.Series(df.created_at))
 ns180min=180*60*1000000000   # 180 minutes in nanoseconds
 df['threehour'] = pd.DatetimeIndex(((df.created_at.astype(np.int64) // ns180min + 1) * ns180min))
-=======
 df.created_at = pd.to_datetime(pd.Series(df.created_at))
 
 def hoursToNanoseconds(h):
@@ -77,7 +75,6 @@ def convertSeriestimeinterval(dataframe, series, hours):     # series should be 
     dataframe['hour'] = pd.DatetimeIndex(((dataframe[series].astype(np.int64) // interval + 1) * interval))
 
 convertSeriestimeinterval(df, 'created_at', 3)
->>>>>>> 1243366... split ts hour conversion and keywords.py stuff into functions
 
 # create series of our DFs
 SplitDataFrames = pd.Series([df[df.country == 'Nepal'], df[df.country == 'Indonesia'],

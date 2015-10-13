@@ -18,8 +18,6 @@ df = i.df
 
 x = pd.DataFrame
 
-
-
 x.description = tokenizeElementsinDataFrame(df, 'description')
 print(x.description[1])
 
