@@ -1,7 +1,8 @@
 __author__ = 'Tom'
-#import index
+# import index
 import pandas as pd
 import random as r
+
 
 # takes pandas series and cleans
 
@@ -9,7 +10,8 @@ import random as r
 def random_choice(testargs):
     return r.choice(testargs)
 
-TestArgs = [r.randrange(-1000000, 1000000), r.randrange(0,100000), (r.random()*-100),
+
+TestArgs = [r.randrange(-1000000, 1000000), r.randrange(0, 100000), (r.random() * -100),
             'B', 'b', 'dobhnio dobgjudo', 'glrgnkrglknd\gd/rlk332fkbhj', 'UK', '$500', '-$500', 'joe\'s fast run usa']
 
 rand_list = []
@@ -19,18 +21,23 @@ print(rand_list)
 pseries = pd.Series(rand_list)
 print(pseries)
 
-# use apply function on df/series to execute the below!!!!
-def conv_neg_int_bool(x):   # only works on intergers not float/decimal
-    bool = False
-    if type(x) == "float":
-        x = round(int(x))
-    if str.isdigit(str(x)):
-        bool = int(x) > 0
-    return bool
 
-h = pseries.apply(conv_neg_int_bool)
-print(h)
-
+# for list checks if when x is stripped of minus symbol == a digit, returns True is x is stripped and true
+def check_neg_num(x):
+    minus = False
+    stripped = x.strip('-')
+    if type(stripped) == "float":
+        stripped = round(int(stripped))
+    if str.isdigit(str(stripped)) == True:
+        minus = '-' in x
+    return minus
 
 
-#checkout apply map, filter and map for pandas
+# h = pseries.apply(conv_neg_int_bool)
+
+
+x = ['4', '-3', 'phillipines', 'gf', '891555', '43.3', '0']
+
+print([check_neg_num(i) for i in x])
+
+# checkout apply map, filter and map for pandas

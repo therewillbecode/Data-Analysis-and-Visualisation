@@ -2,22 +2,29 @@ __author__ = 'Tom'
 import unittest
 import pandas as pd
 import random as r
-import validation
+import validation as v
 
 
-def random_choice(testargs):
-    return r.choice(testargs)
 
-TestArgs = [r.randrange(-10000000, 10000000), r.random()*100, (r.random()*-100),
-            'B', 'b', 'dobhnio dobgjudo', 'glrgnkrglknd\gd/rlk332fkbhj', 'UK', '$500', '-$500', 'joe\'s fast run usa']
+class test_can_handle_strings(unittest.TestCase):
+        def test_should_return_true_for_negative_int(self):
+            self.assertEqual(v.check_neg_num('-40'), True)
 
-rand_list = []
-[rand_list.append(random_choice(TestArgs)) for x in range(0, 90)]
-pseries = pd.series(rand_list)
-print(rand_list)
+        def test_should_return_false_for_positive_int(self):
+            self.assertEqual(v.check_neg_num('835'), False)
 
-class Testreadcsv(unittest.TestCase):
-        def test_readcsv(self):
-            x = rand_list
-            self.assertEqual(all(x) > 1, True)
+        def test_should_return_false_for_non_digit(self):
+            self.assertEqual(v.check_neg_num('Britain'), False)
+
+        def test_should_return_false_for_zero(self):
+            self.assertEqual(v.check_neg_num('0'), False)
+
+        def test_should_return_true_for_negative_float(self):
+            self.assertEqual(v.check_neg_num('-10.82'), True)
+
+
+class test_can_handle_boolean_input(unittest.TestCase):
+        def test_can_handle_boolean_input(self):
+            self.assertEqual(v.check_neg_num(True), False)
+
 
