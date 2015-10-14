@@ -24,6 +24,9 @@ print(pseries)
 
 # for list checks if when x is stripped of minus symbol == a digit, returns True is x is stripped and true
 def check_neg_num(x):
+    if x == True:   # prevents bug whereby function evaluates Truthy argument as negative number
+        return False
+    x = str(x)
     minus = False
     stripped = x.strip('-')
     if type(stripped) == "float":
@@ -39,5 +42,4 @@ def check_neg_num(x):
 x = ['4', '-3', 'phillipines', 'gf', '891555', '43.3', '0']
 
 print([check_neg_num(i) for i in x])
-
 # checkout apply map, filter and map for pandas
