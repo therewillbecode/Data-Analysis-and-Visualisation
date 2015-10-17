@@ -19,17 +19,15 @@ class test_(unittest.TestCase):
             self.assertEquals(len(remove(df, 6, neg)), 4)
             self.assertEquals(len(remove(df, 2, neg)), 3)
 
-
-class test_works_for_various_index_types(unittest.TestCase):
-    print('')
-
-
 class test_handles_unexpected_input(unittest.TestCase):
         def test_should_handle_empty_dataframe(self):
             print('')
 
-        def test_raise_TypeError_for_non_dataframe(self):
+        def test_raise_TypeError_for_non_dataframe_arg1(self):
            self.assertRaises(TypeError, (remove('qwerty', 3, neg)))
+
+        def test_raise_TypeError_for_non__arg2(self):
+           self.assertRaises(TypeError, (remove(df, [2, 2], neg)))
 
         def test_raise_IndexError_for_out_of_range(self):
            self.assertRaises(IndexError, (remove(df, 90, neg)))

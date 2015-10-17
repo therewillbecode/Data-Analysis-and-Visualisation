@@ -34,8 +34,8 @@ def remove_rows_where_true_for_index(dataframe, col, function):
         return dataframe[dataframe.mapped_series == False]
      except (AttributeError, TypeError):
         print('arg1 needs to be a Dataframe')
-     except (KeyError, IndexError):
-        print('no such index in DataFrame')
+     except (KeyError, IndexError, ValueError):
+        print('no such col in DataFrame')
 
 
 print('______________________')
