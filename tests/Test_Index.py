@@ -16,6 +16,4 @@ class Testreadcsv(unittest.TestCase):
         self.assertEqual(all(elements > 1 for elements in main.readCsv('raw_data.csv', encoding="ISO-8859-1").count()), True)
 
 
-class Testpivot(unittest.TestCase):
-    # pandas pivot must have
 

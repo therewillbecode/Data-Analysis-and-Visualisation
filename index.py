@@ -1,6 +1,8 @@
 __author__ = 'Tom'
 import numpy as np
 import pandas as pd
+import csv
+
 def hoursToNanoseconds(h):
     return h*60*60*1000000000   # converts hours to nanoseconds
 
@@ -93,15 +95,20 @@ h3tsDataFrames = []
 #h3TsDataFrames = [print(index.groupby(index.threehour).sum()) for index in h3TsDataFrames]
 
 #print(h3TsDataFrames)
-print(h3tsDataFrames)
+print(h3tsDataFrames[1])
 
+
+indo_ts_AmountRaised = h3tsDataFrames[1].amount_raised
+
+file_name = 'D3/Indo_Time_Series.csv'
+indo_ts_AmountRaised.to_csv(file_name, ',')
 
 
 # time series for everything bpogus
 #print(df.groupby(df.created_at).sum())
 #threehourTS = (df.groupby(df.threehour).sum())
 #print(threehourTS)
-#print(df.columns.unique())
+#print(df.columns.unique())\\\\
 
 # CHEATSHEET
 #
