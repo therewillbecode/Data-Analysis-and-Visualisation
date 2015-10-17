@@ -2,7 +2,7 @@ __author__ = 'Tom'
 __author__ = 'Tom'
 import unittest
 
-from Data_Cleaning import outliers_validation as v
+from Data_Cleaning import outliers_cleaning as v
 
 
 class test_can_handle_strings(unittest.TestCase):
