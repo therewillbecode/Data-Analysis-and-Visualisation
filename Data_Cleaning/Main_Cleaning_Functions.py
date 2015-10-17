@@ -25,7 +25,7 @@ def neg_num(x):
         return False
 
 
-def remove_rows_where_true_for_index(dataframe, col, function):
+def map_remove(dataframe, col, function):
      try:
         print(dataframe)
         dataframe.mapped_series = dataframe[col].apply(function)
@@ -40,5 +40,5 @@ def remove_rows_where_true_for_index(dataframe, col, function):
 
 print('______________________')
 
-#print(remove_rows_where_true_for_index('df', 6, neg_num))
+#print(map_remove('df', 6, neg_num))
 # checkout apply map, filter and map for pandas

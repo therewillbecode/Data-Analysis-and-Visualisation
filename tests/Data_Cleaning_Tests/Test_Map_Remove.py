@@ -1,9 +1,11 @@
 __author__ = 'Tom'
 __author__ = 'Tom'
 import unittest
+
 import pandas as pd
-from cleaning import neg_num as neg
-from cleaning import remove_rows_where_true_for_index as remove
+
+from Data_Cleaning.cleaning import neg_num as neg
+from Data_Cleaning.cleaning import map_remove as remove
 
 x = ['4', '-3', 'phillipines', 'gf', '891555', '43.3', '0']
 i = x = ['2', '2', '-1', 'gf', '-8555', '43.3', '3']

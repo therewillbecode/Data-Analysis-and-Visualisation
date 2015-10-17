@@ -1,7 +1,7 @@
 __author__ = 'Tom'
 import unittest
 
-from cleaning import neg_num as v
+from Data_Cleaning.cleaning import neg_num as v
 
 
 class test_can_handle_strings(unittest.TestCase):

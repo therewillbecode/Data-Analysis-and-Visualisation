@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b99b699-1cb9-4596-9cf6-8a4b66f08341" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Check_Index_Map.py" afterPath="$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Check_Index_Map.py" />
+      <change type="DELETED" beforePath="C:\Users\Tom\PycharmProjects\untitled1\cleaning.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tom\PycharmProjects\untitled1\tests\Data_Cleaning_Tests\Test_Check_Index_Map.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Tom\PycharmProjects\untitled1\tests\Data_Cleaning_Tests\Test_Cleaning_Check_Neg_Num.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled6.iws" />
@@ -17,18 +19,19 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Map_Remove.coverage" NAME="Unittests in Test_Map_Remove Coverage Results" MODIFIED="1445081881495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_index.coverage" NAME="Unittests in index Coverage Results" MODIFIED="1444497188499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$validation.coverage" NAME="validation Coverage Results" MODIFIED="1444995010519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__1_.coverage" NAME="Unittests in Test_Index (1) Coverage Results" MODIFIED="1444499374968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__2_.coverage" NAME="Unittests in Test_Index (2) Coverage Results" MODIFIED="1444565856243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Check_Index_Map.coverage" NAME="Unittests in Test_Check_Index_Map Coverage Results" MODIFIED="1445081281225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
+    <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Check_Index_Map.coverage" NAME="Unittests in Test_Check_Index_Map Coverage Results" MODIFIED="1445081689510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Outliers_Validation.coverage" NAME="Unittests in Test_Outliers_Validation Coverage Results" MODIFIED="1444993460401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Cleaning_Check_Neg_Num.coverage" NAME="Unittests in Test_Cleaning_Check_Neg_Num Coverage Results" MODIFIED="1445023088132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
     <SUITE FILE_PATH="coverage/untitled6$index.coverage" NAME="index Coverage Results" MODIFIED="1444563265023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$keywords.coverage" NAME="keywords Coverage Results" MODIFIED="1444732233730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Validation.coverage" NAME="Unittests in Test_Validation Coverage Results" MODIFIED="1444839156983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/untitled6$outliers_validation.coverage" NAME="outliers_validation Coverage Results" MODIFIED="1444897050187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled6$cleaning.coverage" NAME="cleaning Coverage Results" MODIFIED="1445078938478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled6$cleaning.coverage" NAME="cleaning Coverage Results" MODIFIED="1445081875162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$index__1_.coverage" NAME="index (1) Coverage Results" MODIFIED="1444997285841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index.coverage" NAME="Unittests in Test_Index Coverage Results" MODIFIED="1444498112906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Validation__1_.coverage" NAME="Unittests in Test_Validation (1) Coverage Results" MODIFIED="1444996484848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
@@ -48,19 +51,31 @@
             <entry file="file://$PROJECT_DIR$/tests/Test_Index.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+                  <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Test_Check_Index_Map.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Check_Index_Map.py">
+          <file leaf-file-name="Test_Map_Remove.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Map_Remove.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.59012014">
-                  <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.43124166">
+                  <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
                   <folding>
                     <element signature="e#38#53#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_Neg_Num.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Neg_Num.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#19#34#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -70,7 +85,7 @@
             <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Outliers_Cleaning.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -124,10 +139,10 @@
             </entry>
           </file>
           <file leaf-file-name="cleaning.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/cleaning.py">
+            <entry file="file://$PROJECT_DIR$/Data_Cleaning/cleaning.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.73706293">
-                  <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.4993007">
+                  <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -277,25 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data_Cleaning_Tests" />
+              <option name="myItemId" value="Data_Cleaning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,14 +318,14 @@
       <recent name="C:\Users\Tom\PycharmProjects\untitled1\Output_Csv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tom\PycharmProjects\untitled1\Data_Cleaning" />
       <recent name="C:\Users\Tom\PycharmProjects\untitled1" />
       <recent name="C:\Users\Tom\PycharmProjects\untitled1\Output_Csv" />
       <recent name="C:\Users\Tom\PycharmProjects\untitled1\tests\Data_Cleaning_Tests" />
-      <recent name="C:\Users\Tom\PycharmProjects\untitled1\Data_Cleaning" />
       <recent name="C:\Users\Tom\PycharmProjects\untitled1\D3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Test_Check_Index_Map">
+  <component name="RunManager" selected="Python tests.Unittests in Test_Map_Remove">
     <configuration default="false" name="index (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,29 +342,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in Test_Validation (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled6" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Validation.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Unittests in Test_Cleaning_Check_Neg_Num" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -406,7 +380,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled6" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cleaning.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Tom\PycharmProjects\untitled1\Data_Cleaning\cleaning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -423,6 +397,29 @@
       <module name="untitled6" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Check_Index_Map.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in Test_Map_Remove" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled6" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Map_Remove.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -624,18 +621,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.index (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Validation (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Cleaning_Check_Neg_Num" />
-      <item index="3" class="java.lang.String" itemvalue="Python.cleaning" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Check_Index_Map" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Cleaning_Check_Neg_Num" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cleaning" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Check_Index_Map" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Map_Remove" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Check_Index_Map" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Map_Remove" />
         <item index="1" class="java.lang.String" itemvalue="Python.cleaning" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Cleaning_Check_Neg_Num" />
-        <item index="3" class="java.lang.String" itemvalue="Python.index (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Validation (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Check_Index_Map" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Cleaning_Check_Neg_Num" />
+        <item index="4" class="java.lang.String" itemvalue="Python.index (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -710,12 +707,17 @@
           <line>91</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Data_Cleaning/cleaning.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/D3/try.html</url>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -862,24 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Cleaning_Check_Neg_Num.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20427236">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Test_Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.529412">
@@ -891,26 +875,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Test_Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Cleaning/cleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4993007">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Outliers_Cleaning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cleaning.py">
+    <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Neg_Num.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73706293">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Check_Index_Map.py">
+    <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Map_Remove.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59012014">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.43124166">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
             <element signature="e#38#53#0" expanded="true" />
           </folding>
