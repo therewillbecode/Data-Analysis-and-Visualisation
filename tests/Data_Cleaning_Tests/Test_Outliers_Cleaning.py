@@ -33,3 +33,9 @@ class test_remove_outliers_handles_boolean_input(unittest.TestCase):
             print(v.remove_outliers(df2, 3, 'Data'))
             self.assertEqual(v.remove_outliers(df2, 2, 'Data').Data.count(), 5)
 
+
+class test_dataframe_operations(unittest.TestCase):
+
+        def test_raise_keyerror_when_index_not_in_dataframe(self):
+            self.assertRaises(KeyError, v.remove_outliers(df, 4, 'qwerty'))
+

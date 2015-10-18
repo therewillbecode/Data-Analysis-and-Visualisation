@@ -12,7 +12,7 @@ def num(s):
             print('not a valid int or float')
 
 
-# returns a dataframe with outliers for std dev removed
+# returns a dataframe with row removed where z-score (col) > sd
 def remove_outliers(df, sd, col):
     sd = num(sd)
     try:
@@ -20,8 +20,8 @@ def remove_outliers(df, sd, col):
          return df
     except (TypeError):
          print(TypeError('arg1 must be a DataFrame'))
- #   except (AttributeError):
-  #       print('AttributeError')
+    except (KeyError):
+         print('arg3 given for col is not a valid column in arg1 df')
 
 
 #def rolling_std(pd_Series):
