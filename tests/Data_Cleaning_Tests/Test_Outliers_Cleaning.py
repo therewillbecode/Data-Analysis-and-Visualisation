@@ -13,17 +13,23 @@ class test_num_handles_unexpected_input(unittest.TestCase):
         def test_num_raises_valueerror(self):
             self.assertRaises(TypeError, v.num('qwerty'))
 
+class test_stringify_(unittest.TestCase):
+
+        def test_num_raises_valueerror(self):
+            self.assertEquals(type(v.stringify(['f', True])), str)
+            self.assertEquals(type(v.stringify([65, True])), str)
+
 
 class test_remove_outliers_handles_unexpected_input(unittest.TestCase):
 
         def test_should_raise_attributeerror_for_non_dataframe(self):
-            self.assertRaises(AttributeError, v.remove_outliers('g', 3,'Data'))
+            self.assertRaises(AttributeError, v.remove_outliers('g', 3, 'Data'))
 
         def test_should_accept_digit_string_for_arg2(self):
-            self.assertEqual(v.remove_outliers(df, '4','Data').__class__.__name__, 'DataFrame')
+            self.assertEqual(v.remove_outliers(df, '4', 'Data').__class__.__name__, 'DataFrame')
 
         def test_should_accept_int_for_arg2(self):
-            self.assertEqual(v.remove_outliers(df, 4,'Data').__class__.__name__, 'DataFrame')
+            self.assertEqual(v.remove_outliers(df, 4, 'Data').__class__.__name__, 'DataFrame')
 
 
 class test_remove_outliers_handles_boolean_input(unittest.TestCase):

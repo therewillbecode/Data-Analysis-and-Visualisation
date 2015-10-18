@@ -20,7 +20,7 @@
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Map_Remove.coverage" NAME="Unittests in Test_Map_Remove Coverage Results" MODIFIED="1445082743711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_index.coverage" NAME="Unittests in index Coverage Results" MODIFIED="1444497188499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Main_Cleaning_Functions.coverage" NAME="Main_Cleaning_Functions Coverage Results" MODIFIED="1445087848854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Outliers_Cleaning.coverage" NAME="Unittests in Test_Outliers_Cleaning Coverage Results" MODIFIED="1445172302308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
+    <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Outliers_Cleaning.coverage" NAME="Unittests in Test_Outliers_Cleaning Coverage Results" MODIFIED="1445174749475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
     <SUITE FILE_PATH="coverage/untitled6$validation.coverage" NAME="validation Coverage Results" MODIFIED="1444995010519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__1_.coverage" NAME="Unittests in Test_Index (1) Coverage Results" MODIFIED="1444499374968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__2_.coverage" NAME="Unittests in Test_Index (2) Coverage Results" MODIFIED="1444565856243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -106,8 +106,8 @@
           <file leaf-file-name="Test_Outliers_Cleaning.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Outliers_Cleaning.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.34045395">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.317757">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding>
                     <element signature="e#19#34#0" expanded="true" />
                   </folding>
@@ -155,8 +155,8 @@
           <file leaf-file-name="outliers_cleaning.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43124166">
-                  <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.29506007">
+                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding>
                     <element signature="e#19#38#0" expanded="true" />
                   </folding>
@@ -919,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43124166">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.29506007">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#19#38#0" expanded="true" />
           </folding>
@@ -929,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Outliers_Cleaning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34045395">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.317757">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
           </folding>

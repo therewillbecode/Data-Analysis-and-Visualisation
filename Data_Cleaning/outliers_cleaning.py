@@ -12,9 +12,17 @@ def num(s):
             print('not a valid int or float')
 
 
+def stringify(s):
+    try:
+        return str(s)
+    except ValueError:
+            print('could not convert to string')
+
+
 # returns a dataframe with row removed where z-score (col) > sd
 def remove_outliers(df, sd, col):
-    sd = num(sd)
+    sd = num(sd)    # convert sd to number
+    col = str(col)  # convert column name to string
     try:
          df = df[np.abs(df[col]-df[col].mean()) <= (sd*df[col].std())] #keep only the ones that are within +sd to -sd standard deviations in the column 'Data'.
          return df
