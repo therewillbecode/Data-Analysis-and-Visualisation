@@ -34,9 +34,11 @@ def map_remove(dataframe, col, function):
         return dataframe[dataframe.mapped_series == False]
      except (AttributeError, TypeError):
         print('arg1 needs to be a Dataframe')
-     except (KeyError, IndexError, ValueError):
+     except (IndexError, ValueError):
         print('no such col in DataFrame')
-
+     except KeyError as e:
+        cause = e.args[0]
+        print(cause + ' not a valid column in the dataframe')
 
 print('______________________')
 

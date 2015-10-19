@@ -1,37 +1,33 @@
 __author__ = 'Tom'
 import numpy as np
 import pandas as pd
-import csv
-
-def hoursToNanoseconds(h):
-    return h*60*60*1000000000   # converts hours to nanoseconds
+from Analysis import Manipulate_Dfs
+from Data_Cleaning import Time_Series_Cleaning as ts
 
 
-# takes a dataframe and gives it a new column with time series with intervals converted in no of hours
-def convertSeriestimeinterval(dataframe, series, hours):     # series should be a string
-    interval = hoursToNanoseconds(hours)
-    dataframe['hour'] = pd.DatetimeIndex(((dataframe[series].astype(np.int64) // interval + 1) * interval))
+#1 create functions for everything here
+#2 create class for each country/category - must have name and all important indexes
 
+#3 learn about queues
+# 3.1 learn about locking
+#4 index should create objects consisting of cleaned data on different threads concurrently - use queue and locking
 
+# delete and change to another file
 # reads csv and excludes records that contain NaN
 def readcsv(csvfile, encoding, index_col=0, parse_dates='created_at'):
     df = pd.read_csv(csvfile, index_col=index_col, encoding=encoding, parse_dates=parse_dates)
     return df.dropna()
 
-# set project ids
+# map project ids
 entrepreneurship = '27'
 construction = '28'
 
-# df is our raw data frame taken from the csv
-df = readcsv('raw_data.csv', encoding="ISO-8859-1")
+# call read csv function and get raw df
 
 # add amount needed column to df
 df['amount_needed'] = df.amount_goal - df.amount_raised
 df['completed'] = [x == 0 for x in df.amount_needed]
 
-# convert to timestamp
-# use cython to speed this operation up
-# df.created_at = pd.to_datetime(df.created_at)
 
 AllCat_Nepal = df[df.country == 'Nepal']
 AllCat_Indonesia = df[df.country == 'Indonesia']
@@ -74,7 +70,7 @@ df.amountNeeded = pd.Series([AllCat_Nepal.amount_needed.sum(),
 df.created_at = pd.to_datetime(pd.Series(df.created_at))
 
 # third argument sets interval span in hours for time series conversion
-convertSeriestimeinterval(df, 'created_at', 3)
+ts.convert_time_interval(df, 'created_at', 3)
 
 # create series of our DFs
 SplitDataFrames = pd.Series([df[df.country == 'Nepal'], df[df.country == 'Indonesia'],
@@ -95,35 +91,7 @@ h3tsDataFrames = []
 #h3TsDataFrames = [print(index.groupby(index.threehour).sum()) for index in h3TsDataFrames]
 
 #print(h3TsDataFrames)
-print(h3tsDataFrames[1])
+#print(h3tsDataFrames[1])
+print(SplitDataFrames[0])
+print(df.amountNeeded)
 
-
-indo_ts_AmountRaised = h3tsDataFrames[1].amount_raised
-
-file_name = 'D3/Indo_Time_Series.csv'
-indo_ts_AmountRaised.to_csv(file_name, ',')
-
-
-# time series for everything bpogus
-#print(df.groupby(df.created_at).sum())
-#threehourTS = (df.groupby(df.threehour).sum())
-#print(threehourTS)
-#print(df.columns.unique())\\\\
-
-# CHEATSHEET
-#
-# df[df.c == value]
-# h[(h.year < value) & (h.year>= value)]   find alll films that is true for BOTH values
-# h[(h.year < 1980) | (h.year>= 1990)]   find alll films before and after dates
-# t[t.title == 'Macbeth'].sort('year')    sort all films called macbeth by
-# df.sort(['column1', 'column2'])
-# df.groupby(df.created_at).sum())      aggregates data according to time
-
-
-#TO DO
-#
-# implement function that computs success rate
-# success rate column should compute from the completed column as follows = count(false) / count (true)
-# call success rate function for each dataframe
-
-#Data validation functions and testing

@@ -28,9 +28,9 @@ def remove_outliers(df, sd, col):
          return df
     except (TypeError):
          print(TypeError('arg1 must be a DataFrame'))
-    except (KeyError):
-         print('arg3 given for col is not a valid column in arg1 df')
-
+     except KeyError as e:
+        cause = e.args[0]
+        print(cause + ' not a valid column in the dataframe')
 
 #def rolling_std(pd_Series):
 #    return pd.rolling_std(pd_Series, 25, min_periods=1)
