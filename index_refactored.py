@@ -28,7 +28,7 @@ def partition_df(df, col): # return dictionary object of filtered data frame for
         cause = e.args[0]
         print(cause + ' not a valid column in the dataframe')
 
-
+# this is the main cleaning function that calls the bulk of cleaning functions on a given dataframe
 def clean_frame(df):
 
     # remove negative nums
