@@ -17,26 +17,28 @@ def readcsv(csvfile, encoding, index_col='country', parse_dates='created_at'):
         print('encoding is the wrong codec for file')
 
 def clean_frame(df):
-
-    # define check number function
-    is_num = lambda x: type(clean.num(x)) == int or float
-
+    # define check int function
+    is_int = lambda x: type(clean.num(x)) == int
+    print(df.__class__.__name__)
     # check are nums
-    df = clean.map_remove(df, 'amount_raised', is_num)
-    df = clean.map_remove(df, 'amount_needed', is_num)
-    df = clean.map_remove(df, 'category_id', is_num)
-    df = clean.map_remove(df, 'platform_id', is_num)
+    df = clean.map_remove(df, 'amount_raised', clean.neg_num)
+
+    print(df.__class__.__name__)
+    df = clean.map_remove(df, 'amount_goal', clean.neg_num)
+    print(df.__class__.__name__)
+    df = clean.map_remove(df, 'category_id', clean.neg_num)
+    df = clean.map_remove(df, 'platform_id', clean.neg_num)
 
     # remove negative nums
     df = clean.map_remove(df, 'amount_raised', clean.neg_num)
-    df = clean.map_remove(df, 'amount_needed', clean.neg_num)
+    df = clean.map_remove(df, 'amount_goal', clean.neg_num)
 
     # remove outliers
-    df = outlier.remove_outliers(df, 5, 'amount_needed')
+    df = outlier.remove_outliers(df, 5, 'amount_goal')
     df = outlier.remove_outliers(df, 5, 'amount_raised')
 
     # tokenize keywords using NLTK library
-    df.description = keyw.tokenizeElements(df, 'description')
+#    df.description = keyw.tokenizeElements(df, 'description')
 
     return df
 
@@ -56,5 +58,8 @@ df_raw = readcsv(file, encoding=encoding, index_col=indexCol)
 # for performance single DataFrame assigned to each country from raw_df and cleaned concurrently
 unique_countries = m.get_unique_vals(df_raw, 'country')
 
-print((df_raw.columns))
-#print(clean_frame(df_raw))
+
+#print((df_raw.__class__na))
+print('lets go')
+print(df_raw.columns)
+print(clean_frame(df_raw))

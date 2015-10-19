@@ -1,13 +1,6 @@
 __author__ = 'Tom'
 import pandas as pd
 
-df2 = pd.DataFrame({
-                   'country': ['UK', 'FRA', 'UK', 'DE', 'BRA', 'KE'],
-                   'pop': [0, 1, 0, 1, 1, 1],
-                   'goal': [2, -4, 6, 2, 5, 7],
-                   'raised': [0, 2, 1, 4, 5, 7],
-                  })
-
 # data cleaning functions
 x = ['4', '-3', 'phillipines', 'gf', '891555', '43.3', '0']
 i = x = ['2', '2', '-1', 'gf', '-8555', '43.3', '3']
@@ -49,5 +42,3 @@ def map_remove(dataframe, col, function):   # col must be integer
         print(cause)
 
 print('______________________')
-
-print(map_remove(df2, 'goal', neg_num))
