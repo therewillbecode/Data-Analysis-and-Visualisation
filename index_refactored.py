@@ -16,6 +16,19 @@ def readcsv(csvfile, encoding, index_col='country', parse_dates='created_at'):
     except UnicodeDecodeError:
         print('encoding is the wrong codec for file')
 
+
+def partition_df(df, col): # return dictionary object of filtered data frame for each unique element in col
+    try:
+        # dict comprehension creates dict to holds DataFrame for each country
+        dict1 = {k: df[df[col] == k] for k in m.get_unique_vals(df, col)}
+        return dict1
+    except (TypeError):
+         print(TypeError('arg1 must be a DataFrame'))
+    except KeyError as e:
+        cause = e.args[0]
+        print(cause + ' not a valid column in the dataframe')
+
+
 def clean_frame(df):
 
     # remove negative nums
@@ -41,7 +54,6 @@ def clean_frame(df):
 
     return df
 
-
 # set variables for csv read
 encoding = "ISO-8859-1"
 file = 'raw_data.csv'
@@ -54,22 +66,15 @@ df_raw = readcsv(file, encoding=encoding, index_col=indexCol)
 #df_raw = m.add_amount_needed(df_raw, 'amount_goal', 'amount_raised')
 #print(df_raw.columns)
 
-# for performance single DataFrame assigned to each country from raw_df and cleaned concurrently
-unique_countries = m.get_unique_vals(df_raw, 'country')
-
-def partition_df(df, col): # return dictionary object of filtered data frame for each unique element in col
-    # dict comprehension creates dict to holds DataFrame for each country
-    dict1 = {k: df[df[col] == k] for k in m.get_unique_vals(df, col)}
-    return dict1
-
-
-
 # dict comprehension creates dict to holds DataFrame for each country
-d = {k: df_raw[df_raw.country == k] for k in unique_countries}
-
 ds = partition_df(df_raw, 'country')
 
-#print((df_raw.__class__na))
-print('lets go')
+# for performance single DataFrame assigned to each country from raw_df and cleaned concurrently
+# use dict as queue for multithreading
+
+
+
+
+
 #print(df_raw.columns)
 #df_clean = clean_frame(df_raw)
