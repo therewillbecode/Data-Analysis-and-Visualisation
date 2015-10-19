@@ -1,7 +1,6 @@
 __author__ = 'Tom'
 import unittest
 import pandas as pd
-import numpy as np
 
 
 # mock data frame for tests
@@ -12,6 +11,16 @@ df = pd.DataFrame({
                    'raised': [0, 2, 1, 4, 5, 7],
                   })
 
+
+def add_amount_needed(df, goalCol, raisedCol):  # returns DataFrame
+    goalCol = str(goalCol)
+    raisedCol = str(raisedCol)
+    try:
+        df['amount_needed'] = df[goalCol] - df[raisedCol]
+        return df
+    except KeyError as e:
+        cause = e.args[0]
+        print(cause + ' not a valid column in the dataframe')
 
 def add_amount_needed(df, goalCol, raisedCol):  # returns DataFrame
     goalCol = str(goalCol)
@@ -41,6 +50,7 @@ def filter_by_col_val(df, col, val):    # returns DataFrame
     except KeyError as e:
         cause = e.args[0]
         print(cause + ' not a valid column in the dataframe')
+
 
 l = get_unique_vals(df, 'country')
 print(l.__class__.__name__)

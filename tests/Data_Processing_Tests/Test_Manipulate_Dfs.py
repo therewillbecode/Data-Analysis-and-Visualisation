@@ -1,7 +1,6 @@
 __author__ = 'Tom'
 import unittest
 import pandas as pd
-import numpy as np
 from Analysis import Manipulate_Dfs as v
 
 # mock data frame for tests
