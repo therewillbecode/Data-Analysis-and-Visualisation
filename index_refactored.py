@@ -33,7 +33,7 @@ def clean_frame(df):
     # add amount needed column to df
     df['amount_needed'] = df.amount_goal - df.amount_raised
     # add completed column
-    df.completed = [df_clean.amount_needed == 0]
+    df.completed = [df.amount_needed == 0]
 
 
     # tokenize keywords using NLTK library
@@ -57,8 +57,15 @@ df_raw = readcsv(file, encoding=encoding, index_col=indexCol)
 # for performance single DataFrame assigned to each country from raw_df and cleaned concurrently
 unique_countries = m.get_unique_vals(df_raw, 'country')
 
+def partition_df(): # return numpy array
 
+
+# dict comprehension creates dict to holds DataFrame for each country
+d = {k: df_raw[df_raw.country == k] for k in unique_countries}
+
+for key, value in d.items():
+    print(key)
 #print((df_raw.__class__na))
 print('lets go')
-print(df_raw.columns)
-df_clean =  clean_frame(df_raw)
+#print(df_raw.columns)
+#df_clean = clean_frame(df_raw)

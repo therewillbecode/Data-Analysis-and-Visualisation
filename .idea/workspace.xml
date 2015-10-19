@@ -21,7 +21,7 @@
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_index.coverage" NAME="Unittests in index Coverage Results" MODIFIED="1444497188499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Main_Cleaning_Functions.coverage" NAME="Main_Cleaning_Functions Coverage Results" MODIFIED="1445275298715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Outliers_Cleaning.coverage" NAME="Unittests in Test_Outliers_Cleaning Coverage Results" MODIFIED="1445174835465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
-    <SUITE FILE_PATH="coverage/untitled6$index_refactored.coverage" NAME="index_refactored Coverage Results" MODIFIED="1445280071738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled6$index_refactored.coverage" NAME="index_refactored Coverage Results" MODIFIED="1445281739753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$validation.coverage" NAME="validation Coverage Results" MODIFIED="1444995010519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__1_.coverage" NAME="Unittests in Test_Index (1) Coverage Results" MODIFIED="1444499374968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__2_.coverage" NAME="Unittests in Test_Index (2) Coverage Results" MODIFIED="1444565856243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -82,8 +82,8 @@
               <file leaf-file-name="Test_Map_Remove.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Map_Remove.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.84444445">
-                      <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+                    <state vertical-scroll-proportion="0.42222223">
+                      <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
                       <folding>
                         <element signature="e#38#53#0" expanded="true" />
                       </folding>
@@ -110,8 +110,8 @@
               <file leaf-file-name="outliers_cleaning.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.33333334">
-                      <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+                    <state vertical-scroll-proportion="0.6">
+                      <caret line="27" column="18" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="18" />
                       <folding>
                         <element signature="e#19#38#0" expanded="true" />
                       </folding>
@@ -140,8 +140,8 @@
           <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.0">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="55" />
+                <state vertical-scroll-proportion="-11.5">
+                  <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
                   <folding>
                     <element signature="e#19#37#0" expanded="true" />
                   </folding>
@@ -152,8 +152,8 @@
           <file leaf-file-name="index_refactored.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index_refactored.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5813953">
-                  <caret line="50" column="29" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.81395346">
+                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
                   <folding>
                     <element signature="e#19#38#0" expanded="true" />
                   </folding>
@@ -1074,16 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Map_Remove.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84444445">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-          <folding>
-            <element signature="e#38#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31909212">
@@ -1116,6 +1106,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Data_Cleaning_Tests/Test_Map_Remove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42222223">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#19#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Cleaning/Keywords_Cleaning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1128,28 +1138,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="55" />
+        <state vertical-scroll-proportion="-11.5">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
           <folding>
             <element signature="e#19#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#19#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_refactored.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5813953">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.81395346">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="e#19#38#0" expanded="true" />
           </folding>
