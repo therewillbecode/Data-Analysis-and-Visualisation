@@ -62,19 +62,8 @@ indexCol = 'country'
 # call readcsv and assign results to _raw
 df_raw = readcsv(file, encoding=encoding, index_col=indexCol)
 
-# add amount_needed column
-#df_raw = m.add_amount_needed(df_raw, 'amount_goal', 'amount_raised')
-#print(df_raw.columns)
 
 # dict comprehension creates dict to holds DataFrame for each country
-ds = partition_df(df_raw, 'country')
+dict_countries = partition_df(df_raw, 'country')
 
-# for performance single DataFrame assigned to each country from raw_df and cleaned concurrently
-# use dict as queue for multithreading
-
-
-
-
-
-#print(df_raw.columns)
-#df_clean = clean_frame(df_raw)
+# next step is to call main cleaning function for each dataframe in the dictionary dict_countries
