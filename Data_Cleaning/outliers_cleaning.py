@@ -28,7 +28,7 @@ def remove_outliers(df, sd, col):
          return df
     except (TypeError):
          print(TypeError('arg1 must be a DataFrame'))
-     except KeyError as e:
+    except KeyError as e:
         cause = e.args[0]
         print(cause + ' not a valid column in the dataframe')
 

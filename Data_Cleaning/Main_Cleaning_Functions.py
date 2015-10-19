@@ -1,6 +1,13 @@
 __author__ = 'Tom'
 import pandas as pd
 
+df2 = pd.DataFrame({
+                   'country': ['UK', 'FRA', 'UK', 'DE', 'BRA', 'KE'],
+                   'pop': [0, 1, 0, 1, 1, 1],
+                   'goal': [2, -4, 6, 2, 5, 7],
+                   'raised': [0, 2, 1, 4, 5, 7],
+                  })
+
 # data cleaning functions
 x = ['4', '-3', 'phillipines', 'gf', '891555', '43.3', '0']
 i = x = ['2', '2', '-1', 'gf', '-8555', '43.3', '3']
@@ -25,7 +32,7 @@ def neg_num(x):
         return False
 
 
-def map_remove(dataframe, col, function):
+def map_remove(dataframe, col, function):   # col must be integer
      try:
         print(dataframe)
         dataframe.mapped_series = dataframe[col].apply(function)
@@ -38,9 +45,9 @@ def map_remove(dataframe, col, function):
         print('no such col in DataFrame')
      except KeyError as e:
         cause = e.args[0]
-        print(cause + ' not a valid column in the dataframe')
+        print(' not a valid column in the dataframe')
+        print(cause)
 
 print('______________________')
 
-#print(map_remove('df', 6, neg_num))
-# checkout apply map, filter and map for pandas
+print(map_remove(df2, 'goal', neg_num))
