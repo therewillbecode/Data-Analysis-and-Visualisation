@@ -57,14 +57,18 @@ df_raw = readcsv(file, encoding=encoding, index_col=indexCol)
 # for performance single DataFrame assigned to each country from raw_df and cleaned concurrently
 unique_countries = m.get_unique_vals(df_raw, 'country')
 
-def partition_df(): # return numpy array
+def partition_df(df, col): # return dictionary object of filtered data frame for each unique element in col
+    # dict comprehension creates dict to holds DataFrame for each country
+    dict1 = {k: df[df[col] == k] for k in m.get_unique_vals(df, col)}
+    return dict1
+
 
 
 # dict comprehension creates dict to holds DataFrame for each country
 d = {k: df_raw[df_raw.country == k] for k in unique_countries}
 
-for key, value in d.items():
-    print(key)
+ds = partition_df(df_raw, 'country')
+
 #print((df_raw.__class__na))
 print('lets go')
 #print(df_raw.columns)
