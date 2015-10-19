@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b99b699-1cb9-4596-9cf6-8a4b66f08341" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index_refactored.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analysis/Manipulate_Dfs.py" afterPath="$PROJECT_DIR$/Analysis/Manipulate_Dfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Test_Index.py" afterPath="$PROJECT_DIR$/tests/Test_Index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Data_Processing_Tests/Test_Manipulate_Dfs.py" afterPath="$PROJECT_DIR$/tests/Data_Processing_Tests/Test_Manipulate_Dfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_refactored.py" afterPath="$PROJECT_DIR$/index_refactored.py" />
     </list>
     <ignored path="untitled6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +20,7 @@
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_index.coverage" NAME="Unittests in index Coverage Results" MODIFIED="1444497188499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Main_Cleaning_Functions.coverage" NAME="Main_Cleaning_Functions Coverage Results" MODIFIED="1445256068235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Outliers_Cleaning.coverage" NAME="Unittests in Test_Outliers_Cleaning Coverage Results" MODIFIED="1445174835465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Cleaning_Tests" />
-    <SUITE FILE_PATH="coverage/untitled6$index_refactored.coverage" NAME="index_refactored Coverage Results" MODIFIED="1445262796503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled6$index_refactored.coverage" NAME="index_refactored Coverage Results" MODIFIED="1445267964508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$validation.coverage" NAME="validation Coverage Results" MODIFIED="1444995010519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__1_.coverage" NAME="Unittests in Test_Index (1) Coverage Results" MODIFIED="1444499374968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasDataExercise/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Index__2_.coverage" NAME="Unittests in Test_Index (2) Coverage Results" MODIFIED="1444565856243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -36,7 +32,7 @@
     <SUITE FILE_PATH="coverage/untitled6$index.coverage" NAME="index Coverage Results" MODIFIED="1445262367601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Validation.coverage" NAME="Unittests in Test_Validation Coverage Results" MODIFIED="1444839156983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/untitled6$Outliers_Cleaning.coverage" NAME="Outliers_Cleaning Coverage Results" MODIFIED="1445084707973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
-    <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Manipulate_Dfs.coverage" NAME="Unittests in Test_Manipulate_Dfs Coverage Results" MODIFIED="1445264642529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Processing_Tests" />
+    <SUITE FILE_PATH="coverage/untitled6$Unittests_in_Test_Manipulate_Dfs.coverage" NAME="Unittests in Test_Manipulate_Dfs Coverage Results" MODIFIED="1445265278349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/Data_Processing_Tests" />
     <SUITE FILE_PATH="coverage/untitled6$outliers_cleaning.coverage" NAME="outliers_cleaning Coverage Results" MODIFIED="1445160615881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Cleaning" />
     <SUITE FILE_PATH="coverage/untitled6$outliers_validation.coverage" NAME="outliers_validation Coverage Results" MODIFIED="1444897050187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled6$cleaning.coverage" NAME="cleaning Coverage Results" MODIFIED="1445081875162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -73,8 +69,8 @@
               <file leaf-file-name="Test_Manipulate_Dfs.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/tests/Data_Processing_Tests/Test_Manipulate_Dfs.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.8397864">
-                      <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+                    <state vertical-scroll-proportion="0.5674232">
+                      <caret line="25" column="48" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="48" />
                       <folding>
                         <element signature="e#19#34#0" expanded="true" />
                       </folding>
@@ -89,22 +85,10 @@
               <file leaf-file-name="Manipulate_Dfs.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Analysis/Manipulate_Dfs.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.29639518">
-                      <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+                    <state vertical-scroll-proportion="0.5674232">
+                      <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                       <folding>
                         <element signature="e#19#34#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="outliers_cleaning.py" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-                      <folding>
-                        <element signature="e#19#38#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -126,11 +110,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5468531">
-                  <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+                <state vertical-scroll-proportion="-13.0">
+                  <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
                   <folding>
                     <element signature="e#19#37#0" expanded="true" />
                   </folding>
@@ -138,11 +122,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index_refactored.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index_refactored.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index_refactored.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.5447263">
+                  <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
                   <folding>
                     <element signature="e#38#56#0" expanded="true" />
                   </folding>
@@ -218,9 +202,9 @@
         <option value="$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py" />
         <option value="$PROJECT_DIR$/Data_Cleaning/Main_Cleaning_Functions.py" />
         <option value="$PROJECT_DIR$/tests/Test_Index.py" />
-        <option value="$PROJECT_DIR$/index_refactored.py" />
         <option value="$PROJECT_DIR$/Analysis/Manipulate_Dfs.py" />
         <option value="$PROJECT_DIR$/tests/Data_Processing_Tests/Test_Manipulate_Dfs.py" />
+        <option value="$PROJECT_DIR$/index_refactored.py" />
       </list>
     </option>
   </component>
@@ -416,7 +400,7 @@
       <recent name="C:\Users\Tom\PycharmProjects\untitled1\D3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Test_Manipulate_Dfs">
+  <component name="RunManager" selected="Python.index_refactored">
     <configuration default="false" name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -709,9 +693,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Manipulate_Dfs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Manipulate_Dfs" />
-        <item index="2" class="java.lang.String" itemvalue="Python.index_refactored" />
+        <item index="0" class="java.lang.String" itemvalue="Python.index_refactored" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Test_Manipulate_Dfs" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Manipulate_Dfs" />
         <item index="3" class="java.lang.String" itemvalue="Python.index" />
         <item index="4" class="java.lang.String" itemvalue="Python.Main_Cleaning_Functions" />
       </list>
@@ -749,9 +733,9 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37339744" sideWeight="0.49720448" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296588" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947284" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2451923" sideWeight="0.49776787" order="0" side_tool="false" content_ui="tabs" x="529" y="470" width="1991" height="458" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06829073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06829073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -769,14 +753,14 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35977563" sideWeight="0.50223213" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37339744" sideWeight="0.5027955" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32772437" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37339744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296588" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2451923" sideWeight="0.49776787" order="0" side_tool="false" content_ui="tabs" x="529" y="470" width="1991" height="458" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37339744" sideWeight="0.49720448" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947284" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2451923" sideWeight="0.49776787" order="0" side_tool="false" content_ui="tabs" x="529" y="470" width="1991" height="458" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06829073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -924,7 +908,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="e#19#34#0" expanded="true" />
+            <element signature="e#19#34#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,9 +955,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#39#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,31 +997,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#19#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Cleaning/Main_Cleaning_Functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_refactored.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="e#38#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,20 +1015,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.py">
+    <entry file="file://$PROJECT_DIR$/Data_Cleaning/outliers_cleaning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5468531">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.31909212">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
-            <element signature="e#19#37#0" expanded="true" />
+            <element signature="e#19#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Data_Processing_Tests/Test_Manipulate_Dfs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8397864">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5674232">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
           </folding>
@@ -1075,10 +1037,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Analysis/Manipulate_Dfs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29639518">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5674232">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#19#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_refactored.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5447263">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
