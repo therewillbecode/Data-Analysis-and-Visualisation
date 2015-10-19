@@ -17,19 +17,12 @@ def readcsv(csvfile, encoding, index_col='country', parse_dates='created_at'):
         print('encoding is the wrong codec for file')
 
 def clean_frame(df):
-    # define check int function
-    is_int = lambda x: type(clean.num(x)) == int
-    print(df.__class__.__name__)
-    # check are nums
-    df = clean.map_remove(df, 'amount_raised', clean.neg_num)
-
-    print(df.__class__.__name__)
-    df = clean.map_remove(df, 'amount_goal', clean.neg_num)
-    print(df.__class__.__name__)
-    df = clean.map_remove(df, 'category_id', clean.neg_num)
-    df = clean.map_remove(df, 'platform_id', clean.neg_num)
 
     # remove negative nums
+    df = clean.map_remove(df, 'amount_raised', clean.neg_num)
+    df = clean.map_remove(df, 'amount_goal', clean.neg_num)
+    df = clean.map_remove(df, 'category_id', clean.neg_num)
+    df = clean.map_remove(df, 'platform_id', clean.neg_num)
     df = clean.map_remove(df, 'amount_raised', clean.neg_num)
     df = clean.map_remove(df, 'amount_goal', clean.neg_num)
 
@@ -37,8 +30,14 @@ def clean_frame(df):
     df = outlier.remove_outliers(df, 5, 'amount_goal')
     df = outlier.remove_outliers(df, 5, 'amount_raised')
 
+    # add amount needed column to df
+    df['amount_needed'] = df.amount_goal - df.amount_raised
+    # add completed column
+    df.completed = [df_clean.amount_needed == 0]
+
+
     # tokenize keywords using NLTK library
-#    df.description = keyw.tokenizeElements(df, 'description')
+    #df.description = keyw.tokenizeElements(df, 'description')
 
     return df
 
@@ -62,4 +61,4 @@ unique_countries = m.get_unique_vals(df_raw, 'country')
 #print((df_raw.__class__na))
 print('lets go')
 print(df_raw.columns)
-print(clean_frame(df_raw))
+df_clean =  clean_frame(df_raw)
