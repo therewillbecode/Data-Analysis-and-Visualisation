@@ -1,13 +1,13 @@
 __author__ = 'Tom'
 import unittest
-import index as main
+import index_refactored as v
 
-class TestUnique(unittest.TestCase):
+class Test_read_csv(unittest.TestCase):
 
     # check that functions limit arg types
     def test_CheckRaiseTypeError(self):
-        with self.assertRaises(TypeError):
-            main.getUniqueLabelVals(7, 'country')
+        with self.assertRaises(OSError):
+           v.readcsv('ff.csv', "ISO-8859-1")
 
 
 class Testreadcsv(unittest.TestCase):
