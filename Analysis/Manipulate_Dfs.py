@@ -1,4 +1,8 @@
 __author__ = 'Tom'
+__doc__ = """
+Creates new columns for Pandas DataFrames based on existing columns
+"""
+
 import unittest
 import pandas as pd
 
@@ -11,7 +15,7 @@ df = pd.DataFrame({
                    'raised': [0, 2, 1, 4, 5, 7],
                   })
 
-
+# Adds column to Pandas DataFrame for amount needed for each project ([goal amount] - [amount raised])
 def add_amount_needed(df, goalCol, raisedCol):  # returns DataFrame
     goalCol = str(goalCol)
     raisedCol = str(raisedCol)
@@ -32,7 +36,7 @@ def add_amount_needed(df, goalCol, raisedCol):  # returns DataFrame
         cause = e.args[0]
         print(cause + ' not a valid column in the dataframe')
 
-
+# returns new NumpyArray which is filtered by 'val' in 'col'
 def get_unique_vals(df, col):   # returns ndarray of unique vals in df[col]
     col = str(col)
     try:
@@ -41,7 +45,7 @@ def get_unique_vals(df, col):   # returns ndarray of unique vals in df[col]
         cause = e.args[0]
         print(cause + ' not a valid column in the dataframe')
 
-
+# returns new dataframe which is filtered by 'val' in 'col'
 def filter_by_col_val(df, col, val):    # returns DataFrame
     col = str(col)
     try:
