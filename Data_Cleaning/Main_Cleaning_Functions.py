@@ -1,4 +1,6 @@
 __author__ = 'Tom'
+__doc__ = """ Functions to carry out simple data cleaning tasks on pandas data frames"
+""" 
 import pandas as pd
 
 # data cleaning functions
