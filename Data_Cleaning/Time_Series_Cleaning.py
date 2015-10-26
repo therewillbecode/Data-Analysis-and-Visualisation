@@ -1,4 +1,7 @@
 __author__ = 'Tom'
+__doc__ = """ group_time_series groups columns in a pandas DataFrame by time. convert_time_interval converts time frequency 
+for time series
+""" 
 import pandas as pd
 import numpy as np
 
