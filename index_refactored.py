@@ -1,4 +1,8 @@
 __author__ = 'Tom'
+__doc__ = """ 
+reads raw data, partitions by country and controls which cleaning functions are then applied
+""" 
+
 import pandas as pd
 from Analysis import Manipulate_Dfs as m
 from Data_Cleaning import Time_Series_Cleaning as ts
@@ -6,7 +10,7 @@ from Data_Cleaning import Main_Cleaning_Functions as clean
 from Data_Cleaning import outliers_cleaning as outlier
 from Data_Cleaning import Keywords_Cleaning as keyw
 
-
+# Reads raw data from CSV and returns a Pandas DataFrame object
 def readcsv(csvfile, encoding, index_col='country', parse_dates='created_at'):
     try:
         df = pd.read_csv(csvfile, encoding=encoding, index_col=0, parse_dates=parse_dates)
@@ -16,7 +20,7 @@ def readcsv(csvfile, encoding, index_col='country', parse_dates='created_at'):
     except UnicodeDecodeError:
         print('encoding is the wrong codec for file')
 
-
+# Takes the raw pandas data frame and creates a new dictionary of dataframes for each country.
 def partition_df(df, col): # return dictionary object of filtered data frame for each unique element in col
     try:
         # dict comprehension creates dict to holds DataFrame for each country
