@@ -1,4 +1,6 @@
 __author__ = 'Tom'
+__doc__ = """ Provides function to remove outliers beyond a given z-score
+""" 
 import pandas as pd
 import numpy as np
 
