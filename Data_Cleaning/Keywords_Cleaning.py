@@ -1,4 +1,8 @@
 __author__ = 'Tom'
+__doc__ = """ provides a function (tokenizeElements) to tokenize words within sentences within a DataFrame. "removestopwords" 
+takes a list and removes all very common english words from each element in list
+""" 
+
 import numpy as np
 import pandas as pd
 import nltk
